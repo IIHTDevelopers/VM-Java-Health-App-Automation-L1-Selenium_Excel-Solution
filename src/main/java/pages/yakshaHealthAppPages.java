@@ -427,12 +427,11 @@ public class yakshaHealthAppPages extends StartupPage {
 		Boolean dispensaryNavigationMenuIsMinimizing = false;
 
 		try {
-			commonEvents.jsClick(dispensaryToggle);
-			if(!(commonEvents.isDisplayed(prescriptionSubMenu)&& commonEvents.isDisplayed(saleSubMenu))) {
-
+			if((commonEvents.isDisplayed(prescriptionSubMenu))) {
+                              commonEvents.jsClick(dispensaryToggle);
 				dispensaryNavigationMenuIsMinimizing = true;
 			}	
-
+ 
 		}catch(Exception e) {
 			throw e;	
 		}
