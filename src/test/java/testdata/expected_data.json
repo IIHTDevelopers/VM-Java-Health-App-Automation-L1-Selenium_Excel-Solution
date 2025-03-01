@@ -1,0 +1,24 @@
+{
+	"healthApp":{
+		"dasboardTitle":"DanpheHealth",
+		"pageUrl":"https://healthapp.yaksha.com/Home/Index#/",
+		"addNewpatientPopupTextValue":"Add New Patient"
+	},
+	"YakshaHealthApp":{
+		"SearchBarName":"Sonia Gandhi"
+	},
+	"addNewPatientPopup":{
+		"firstName":"Surya",
+		"middleName":"Prakash",
+		"lastName":"Nayak",
+		"age":"27",
+		"contact":"9124564060",
+		"registerOnlyButtonValue":"Register Only",
+		"selectedCountryName":"India",
+		"errorMessageOfRegisterBilling":"Some of the inputs are invalid. Please check and try again. !"
+	},
+	"KeyBoardTooltip":{
+		"TooltipValue":"ALT + N = New Patient"
+	}
+
+}
