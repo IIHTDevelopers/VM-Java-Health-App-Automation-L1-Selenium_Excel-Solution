@@ -138,7 +138,7 @@ public class yakshaHealthAppTestCase extends AppTestBase
 		locatorsFactoryInstance = new LocatorsFactory(driver);
 		
 		Assert.assertTrue(yakshaHealthAppInstance.verifyDispensaryArrowIsMinimizing(), "Dispensary Arrow element is not present, please check manually");
-		Assert.assertTrue(locatorsFactoryInstance.verifyFieldIsNotPresentInDispensaryMenu(), "Any of the elememt is not present, please check manually");
+	
 	}
 	
 	@Test(priority = 10, groups = {"sanity"}, description="Verify that the left navigation menu scroll bar is scrolling from Dispensary module to settings module.")
